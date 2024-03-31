@@ -6,7 +6,7 @@ const Header = () => {
 
     return (
         <div className='header-main'>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-light header-main-section border-bottom">
                 <div class="container">
                     <a class="navbar-brand" href="/">
                         {/* <h4 className='header-logo-main-text'>INDIA OUT </h4> <br />
@@ -22,6 +22,12 @@ const Header = () => {
                                 <a class="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" href="/indian-products">Indian Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/bd-products">Deshi Products</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="/">News</a>
                             </li>
                             <li class="nav-item">
@@ -29,7 +35,7 @@ const Header = () => {
                             </li>
                         </ul>
                         <span class="navbar-text">
-                            <form className='header-search-form'>
+                            <form className='header-search-form' action='/news'>
                                 <div class="mb-3 d-flex header-search">
                                     <input type="email" class="form-control me-2 header-search-input" id="headerSearchInput" placeholder='Search News' />
                                     <button type="submit" class="btn btn-primary">Search</button>
