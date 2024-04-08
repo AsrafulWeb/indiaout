@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import headerLogoImg from './../../logo/logo.jpg';
+import headerLogoImg from './../../logo/boycott_indian_products_abrar_fahad.jpg';
 
 const Header = () => {
 
